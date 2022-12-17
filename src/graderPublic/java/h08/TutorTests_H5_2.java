@@ -33,8 +33,7 @@ public class TutorTests_H5_2 {
                 assertionThrown = true;
                 assertEquals("Expected h08.MockException to be thrown, but nothing was thrown.",
                     targetException.getMessage(),
-                    "Die Methode \"testException\" wirft zwar einen AssertionError, verwendet jedoch die Methode " +
-                        "assertThrowsExactly nicht korrekt.");
+                    "Die Methode \"testException\" wirft zwar einen AssertionError, die Nachricht des AssertionErrors entspricht jedoch nicht der erwarteten Nachricht.");
             }
         }
 
